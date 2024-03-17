@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Mascotas</title>
+</head>
+<body>
+	<h1>Mascotas</h1>
+	<h5>¿Cuáles de las siguientes mascotas son tus favoritas?</h5>
+	<form action="http://localhost:8080/Practica1Web40/Encuesta" method="POST">
+		<label for="perro">
+			<input type="checkbox" id="perro" name="mascotas" value="Perro" />
+			Perro
+		</label>
+		<br><br>
+		<label for="gato">
+			<input type="checkbox" id="gato" name="mascotas" value="Gato" />
+			Gato
+		</label>
+		<br><br>
+		<label for="hamster">
+			<input type="checkbox" id="hamster" name="mascotas" value="Hamster" />
+			Hamster
+		</label>
+		<br><br>
+		<label for="tortuga">
+			<input type="checkbox" id="tortuga" name="mascotas" value="Tortuga" />
+			Tortuga
+		</label>
+		<br><br>
+		<label for="pez">
+			<input type="checkbox" id="pez" name="mascotas" value="Pez" />
+			Pez
+		</label>
+		<br><br>
+		<label for="mono">
+			<input type="checkbox" id="mono" name="mascotas" value="Mono" />
+			Mono
+		</label>
+		<br><br>
+		<input type="submit" value="Enviar encuesta" />
+	</form>
+</body>
+</html>
